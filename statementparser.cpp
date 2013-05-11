@@ -3,7 +3,7 @@
 #include "statementparser.h"
 
 
-StatementParser::StatementParser(account* pAccount, QObject* parent) :
+StatementParser::StatementParser(Account* pAccount, QObject* parent) :
     QObject(parent)
   ,m_pAccount(pAccount)
 {

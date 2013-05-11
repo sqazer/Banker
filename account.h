@@ -6,7 +6,7 @@
 class Account : public QObject
 {
 public:
-    explicit Account(Qobject* parent = 0);
+    explicit Account(QObject* parent = 0);
     ~Account();
     int load(const QString& filename);
     int save();

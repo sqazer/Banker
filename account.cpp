@@ -3,7 +3,7 @@
 #include "account.h"
 
 
-Account::Account(Qobject* parent) :
+Account::Account(QObject* parent) :
     QObject(parent)
 {
 

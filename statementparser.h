@@ -8,12 +8,12 @@
 class StatementParser : public QObject
 {
 public:
-    explicit StatementParser(account* pAccount, QObject* parent = 0);
+    explicit StatementParser(Account* pAccount, QObject* parent = 0);
     ~StatementParser();
     int parse(const QString& filename);
 
 private:
-    account* m_pAccount;
+    Account* m_pAccount;
 };
 
 #endif // STATEMENTPARSER_H
